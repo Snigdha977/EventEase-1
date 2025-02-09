@@ -113,7 +113,7 @@
 
         <div class="card-body">
           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p>Date: </p>
+          <p>Date: Feb 14, 2025 20:00:00</p>
           <!-- Organizer Details -->
           <div class="mb-3">
             <h6>Organizer Details:</h6>
@@ -121,11 +121,39 @@
             <p>Contact: +91 9876543210</p>
             <p>Email: organizer@gmail.com</p>
           </div>
-  
-          <!-- RSVP Button -->
-          <div class="mb-3">
-            <button type="button" class="btn btn-primary btn-sm">RSVP</button>
-          </div>
+   <!-- RSVP Button in your event card -->
+<button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#rsvpModal">
+  RSVP
+</button>
+
+<!-- RSVP Modal -->
+<div class="modal fade" id="rsvpModal" tabindex="-1" aria-labelledby="rsvpModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+         <h5 class="modal-title" id="rsvpModalLabel">RSVP Registration</h5>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <form id="rsvpForm">
+            <div class="mb-3">
+               <label for="userName" class="form-label">Name</label>
+               <input type="text" class="form-control" id="userName" required>
+            </div>
+            <div class="mb-3">
+               <label for="userEmail" class="form-label">Email</label>
+               <input type="email" class="form-control" id="userEmail" required>
+            </div>
+            <div class="mb-3">
+               <label for="userMessage" class="form-label">Message</label>
+               <textarea class="form-control" id="userMessage" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit RSVP</button>
+         </form>
+      </div>
+    </div>
+  </div>
+</div>
   
           <!-- Social Sharing Options -->
           <div class="mb-3">
@@ -143,15 +171,18 @@
 
          
           <!-- Countdown Timer -->
-          <div id="countdown-timer" class="mt-3 text-center">
-            <h6>Time Left:</h6>
-            <div id="timer">
-              <span id="days">0</span>d 
-              <span id="hours">0</span>h 
-              <span id="minutes">0</span>m 
-              <span id="seconds">0</span>s
-            </div>
-          </div>
+          <div
+      class="countdown-timer mt-3 text-center"
+      data-target="Feb 14, 2025 20:00:00"
+    >
+      <h6>Time Left:</h6>
+      <div class="timer">
+        <span class="days">0</span>d
+        <span class="hours">0</span>h
+        <span class="minutes">0</span>m
+        <span class="seconds">0</span>s
+      </div>
+    </div>
         </div>
       </div>
     </div>
@@ -169,7 +200,7 @@
 </svg>
       <div class="card-body">
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p>Date: </p>
+        <p>Date: Feb 25, 2025 19:00:00</p>
         <!-- Organizer Details -->
         <div class="mb-3">
           <h6>Organizer Details:</h6>
@@ -198,15 +229,18 @@
         </div>
 
         <!-- Countdown Timer -->
-        <div id="countdown-timer" class="mt-3 text-center">
-          <h6>Time Left:</h6>
-          <div id="timer">
-            <span id="days">0</span>d 
-            <span id="hours">0</span>h 
-            <span id="minutes">0</span>m 
-            <span id="seconds">0</span>s
-          </div>
-        </div>
+        <div
+      class="countdown-timer mt-3 text-center"
+      data-target="Feb 25, 2025 19:00:00"
+    >
+      <h6>Time Left:</h6>
+      <div class="timer">
+        <span class="days">0</span>d
+        <span class="hours">0</span>h
+        <span class="minutes">0</span>m
+        <span class="seconds">0</span>s
+      </div>
+    </div>
       </div>
     </div>
   </div>
@@ -223,7 +257,7 @@
 </svg>
     <div class="card-body">
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p>Date: </p>
+      <p>Date: Mar 01 , 2025 21:00:00 </p>
       <!-- Organizer Details -->
       <div class="mb-3">
         <h6>Organizer Details:</h6>
@@ -232,10 +266,42 @@
         <p>Email: organizer@gmail.com</p>
       </div>
 
-      <!-- RSVP Button -->
-      <div class="mb-3">
-        <button type="button" class="btn btn-primary btn-sm">RSVP</button>
+
+
+
+ <!-- RSVP Button in your event card -->
+ <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#rsvpModal">
+  RSVP
+</button>
+
+<!-- RSVP Modal -->
+<div class="modal fade" id="rsvpModal" tabindex="-1" aria-labelledby="rsvpModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+         <h5 class="modal-title" id="rsvpModalLabel">RSVP Registration</h5>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+      <div class="modal-body">
+         <form id="rsvpForm">
+            <div class="mb-3">
+               <label for="userName" class="form-label">Name</label>
+               <input type="text" class="form-control" id="userName" required>
+            </div>
+            <div class="mb-3">
+               <label for="userEmail" class="form-label">Email</label>
+               <input type="email" class="form-control" id="userEmail" required>
+            </div>
+            <div class="mb-3">
+               <label for="userMessage" class="form-label">Message</label>
+               <textarea class="form-control" id="userMessage" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit RSVP</button>
+         </form>
+      </div>
+    </div>
+  </div>
+</div>
 
       <!-- Social Sharing Options -->
       <div class="mb-3">
@@ -252,15 +318,18 @@
       </div>
 
       <!-- Countdown Timer -->
-      <div id="countdown-timer" class="mt-3 text-center">
-        <h6>Time Left:</h6>
-        <div id="timer">
-          <span id="days">0</span>d 
-          <span id="hours">0</span>h 
-          <span id="minutes">0</span>m 
-          <span id="seconds">0</span>s
-        </div>
+      <div
+      class="countdown-timer mt-3 text-center"
+      data-target="Mar 01 , 2025 21:00:00"
+    >
+      <h6>Time Left:</h6>
+      <div class="timer">
+        <span class="days">0</span>d
+        <span class="hours">0</span>h
+        <span class="minutes">0</span>m
+        <span class="seconds">0</span>s
       </div>
+    </div>
     </div>
   </div>
 </div>
@@ -277,7 +346,7 @@
 </svg>
     <div class="card-body">
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p>Date: </p>
+      <p>Date: Mar 05 , 2025 20:30:00</p>
       <!-- Organizer Details -->
       <div class="mb-3">
         <h6>Organizer Details:</h6>
@@ -286,10 +355,39 @@
         <p>Email: organizer@gmail.com</p>
       </div>
 
-      <!-- RSVP Button -->
-      <div class="mb-3">
-        <button type="button" class="btn btn-primary btn-sm">RSVP</button>
+      <!-- RSVP Button in your event card -->
+<button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#rsvpModal">
+  RSVP
+</button>
+
+<!-- RSVP Modal -->
+<div class="modal fade" id="rsvpModal" tabindex="-1" aria-labelledby="rsvpModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+         <h5 class="modal-title" id="rsvpModalLabel">RSVP Registration</h5>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+      <div class="modal-body">
+         <form id="rsvpForm">
+            <div class="mb-3">
+               <label for="userName" class="form-label">Name</label>
+               <input type="text" class="form-control" id="userName" required>
+            </div>
+            <div class="mb-3">
+               <label for="userEmail" class="form-label">Email</label>
+               <input type="email" class="form-control" id="userEmail" required>
+            </div>
+            <div class="mb-3">
+               <label for="userMessage" class="form-label">Message</label>
+               <textarea class="form-control" id="userMessage" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit RSVP</button>
+         </form>
+      </div>
+    </div>
+  </div>
+</div>
 
       <!-- Social Sharing Options -->
       <div class="mb-3">
@@ -306,15 +404,18 @@
       </div>
 
       <!-- Countdown Timer -->
-      <div id="countdown-timer" class="mt-3 text-center">
-        <h6>Time Left:</h6>
-        <div id="timer">
-          <span id="days">0</span>d 
-          <span id="hours">0</span>h 
-          <span id="minutes">0</span>m 
-          <span id="seconds">0</span>s
-        </div>
+      <div
+      class="countdown-timer mt-3 text-center"
+      data-target="Mar 05 , 2025 20:30:00"
+    >
+      <h6>Time Left:</h6>
+      <div class="timer">
+        <span class="days">0</span>d
+        <span class="hours">0</span>h
+        <span class="minutes">0</span>m
+        <span class="seconds">0</span>s
       </div>
+    </div>
     </div>
   </div>
 </div>
@@ -331,7 +432,7 @@
 </svg>
     <div class="card-body">
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p>Date: </p>
+      <p>Date:Apr 01, 2025 10:00:00 </p>
       <!-- Organizer Details -->
       <div class="mb-3">
         <h6>Organizer Details:</h6>
@@ -340,10 +441,39 @@
         <p>Email: organizer@gmail.com</p>
       </div>
 
-      <!-- RSVP Button -->
-      <div class="mb-3">
-        <button type="button" class="btn btn-primary btn-sm">RSVP</button>
+      <!-- RSVP Button in your event card -->
+<button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#rsvpModal">
+  RSVP
+</button>
+
+<!-- RSVP Modal -->
+<div class="modal fade" id="rsvpModal" tabindex="-1" aria-labelledby="rsvpModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+         <h5 class="modal-title" id="rsvpModalLabel">RSVP Registration</h5>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+      <div class="modal-body">
+         <form id="rsvpForm">
+            <div class="mb-3">
+               <label for="userName" class="form-label">Name</label>
+               <input type="text" class="form-control" id="userName" required>
+            </div>
+            <div class="mb-3">
+               <label for="userEmail" class="form-label">Email</label>
+               <input type="email" class="form-control" id="userEmail" required>
+            </div>
+            <div class="mb-3">
+               <label for="userMessage" class="form-label">Message</label>
+               <textarea class="form-control" id="userMessage" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit RSVP</button>
+         </form>
+      </div>
+    </div>
+  </div>
+</div>
 
       <!-- Social Sharing Options -->
       <div class="mb-3">
@@ -360,15 +490,18 @@
       </div>
 
       <!-- Countdown Timer -->
-      <div id="countdown-timer" class="mt-3 text-center">
-        <h6>Time Left:</h6>
-        <div id="timer">
-          <span id="days">0</span>d 
-          <span id="hours">0</span>h 
-          <span id="minutes">0</span>m 
-          <span id="seconds">0</span>s
-        </div>
+      <div
+      class="countdown-timer mt-3 text-center"
+      data-target="Apr 01, 2025 10:00:00 "
+    >
+      <h6>Time Left:</h6>
+      <div class="timer">
+        <span class="days">0</span>d
+        <span class="hours">0</span>h
+        <span class="minutes">0</span>m
+        <span class="seconds">0</span>s
       </div>
+    </div>
     </div>
   </div>
 </div>
@@ -385,7 +518,7 @@
 </svg>
     <div class="card-body">
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p>Date: </p>
+      <p>Date: May 05, 2025 09:00:00</p>
       <!-- Organizer Details -->
       <div class="mb-3">
         <h6>Organizer Details:</h6>
@@ -394,10 +527,39 @@
         <p>Email: organizer@gmail.com</p>
       </div>
 
-      <!-- RSVP Button -->
-      <div class="mb-3">
-        <button type="button" class="btn btn-primary btn-sm">RSVP</button>
+      <!-- RSVP Button in your event card -->
+<button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#rsvpModal">
+  RSVP
+</button>
+
+<!-- RSVP Modal -->
+<div class="modal fade" id="rsvpModal" tabindex="-1" aria-labelledby="rsvpModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+         <h5 class="modal-title" id="rsvpModalLabel">RSVP Registration</h5>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+      <div class="modal-body">
+         <form id="rsvpForm">
+            <div class="mb-3">
+               <label for="userName" class="form-label">Name</label>
+               <input type="text" class="form-control" id="userName" required>
+            </div>
+            <div class="mb-3">
+               <label for="userEmail" class="form-label">Email</label>
+               <input type="email" class="form-control" id="userEmail" required>
+            </div>
+            <div class="mb-3">
+               <label for="userMessage" class="form-label">Message</label>
+               <textarea class="form-control" id="userMessage" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit RSVP</button>
+         </form>
+      </div>
+    </div>
+  </div>
+</div>
 
       <!-- Social Sharing Options -->
       <div class="mb-3">
@@ -414,15 +576,18 @@
       </div>
 
       <!-- Countdown Timer -->
-      <div id="countdown-timer" class="mt-3 text-center">
-        <h6>Time Left:</h6>
-        <div id="timer">
-          <span id="days">0</span>d 
-          <span id="hours">0</span>h 
-          <span id="minutes">0</span>m 
-          <span id="seconds">0</span>s
-        </div>
+      <div
+      class="countdown-timer mt-3 text-center"
+      data-target="May 05, 2025 09:00:00"
+    >
+      <h6>Time Left:</h6>
+      <div class="timer">
+        <span class="days">0</span>d
+        <span class="hours">0</span>h
+        <span class="minutes">0</span>m
+        <span class="seconds">0</span>s
       </div>
+    </div>
     </div>
   </div>
 </div>
@@ -439,7 +604,7 @@
 </svg>
     <div class="card-body">
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p>Date: </p>
+      <p>Date: Mar 08 , 2025 15:30:00 </p>
       <!-- Organizer Details -->
       <div class="mb-3">
         <h6>Organizer Details:</h6>
@@ -448,10 +613,39 @@
         <p>Email: organizer@gmail.com</p>
       </div>
 
-      <!-- RSVP Button -->
-      <div class="mb-3">
-        <button type="button" class="btn btn-primary btn-sm">RSVP</button>
+      <!-- RSVP Button in your event card -->
+<button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#rsvpModal">
+  RSVP
+</button>
+
+<!-- RSVP Modal -->
+<div class="modal fade" id="rsvpModal" tabindex="-1" aria-labelledby="rsvpModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+         <h5 class="modal-title" id="rsvpModalLabel">RSVP Registration</h5>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+      <div class="modal-body">
+         <form id="rsvpForm">
+            <div class="mb-3">
+               <label for="userName" class="form-label">Name</label>
+               <input type="text" class="form-control" id="userName" required>
+            </div>
+            <div class="mb-3">
+               <label for="userEmail" class="form-label">Email</label>
+               <input type="email" class="form-control" id="userEmail" required>
+            </div>
+            <div class="mb-3">
+               <label for="userMessage" class="form-label">Message</label>
+               <textarea class="form-control" id="userMessage" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit RSVP</button>
+         </form>
+      </div>
+    </div>
+  </div>
+</div>
 
       <!-- Social Sharing Options -->
       <div class="mb-3">
@@ -468,15 +662,18 @@
       </div>
 
       <!-- Countdown Timer -->
-      <div id="countdown-timer" class="mt-3 text-center">
-        <h6>Time Left:</h6>
-        <div id="timer">
-          <span id="days">0</span>d 
-          <span id="hours">0</span>h 
-          <span id="minutes">0</span>m 
-          <span id="seconds">0</span>s
-        </div>
+      <div
+      class="countdown-timer mt-3 text-center"
+      data-target="Mar 08 , 2025 15:30:00"
+    >
+      <h6>Time Left:</h6>
+      <div class="timer">
+        <span class="days">0</span>d
+        <span class="hours">0</span>h
+        <span class="minutes">0</span>m
+        <span class="seconds">0</span>s
       </div>
+    </div>
     </div>
   </div>
 </div>
@@ -493,7 +690,7 @@
 </svg>
     <div class="card-body">
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p>Date: 06/15/2025 21:00:00</p>
+      <p>Date: Mar 10, 2025 00:00:00</p>
       <!-- Organizer Details -->
       <div class="mb-3">
         <h6>Organizer Details:</h6>
@@ -502,10 +699,39 @@
         <p>Email: organizer@gmail.com</p>
       </div>
 
-      <!-- RSVP Button -->
-      <div class="mb-3">
-        <button type="button" class="btn btn-primary btn-sm">RSVP</button>
+      <!-- RSVP Button in your event card -->
+<button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#rsvpModal">
+  RSVP
+</button>
+
+<!-- RSVP Modal -->
+<div class="modal fade" id="rsvpModal" tabindex="-1" aria-labelledby="rsvpModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+         <h5 class="modal-title" id="rsvpModalLabel">RSVP Registration</h5>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+      <div class="modal-body">
+         <form id="rsvpForm">
+            <div class="mb-3">
+               <label for="userName" class="form-label">Name</label>
+               <input type="text" class="form-control" id="userName" required>
+            </div>
+            <div class="mb-3">
+               <label for="userEmail" class="form-label">Email</label>
+               <input type="email" class="form-control" id="userEmail" required>
+            </div>
+            <div class="mb-3">
+               <label for="userMessage" class="form-label">Message</label>
+               <textarea class="form-control" id="userMessage" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit RSVP</button>
+         </form>
+      </div>
+    </div>
+  </div>
+</div>
 
       <!-- Social Sharing Options -->
       <div class="mb-3">
@@ -522,15 +748,18 @@
       </div>
 
       <!-- Countdown Timer -->
-      <div id="countdown-timer" class="mt-3 text-center">
-        <h6>Time Left:</h6>
-        <div id="timer">
-          <span id="days">0</span>d 
-          <span id="hours">0</span>h 
-          <span id="minutes">0</span>m 
-          <span id="seconds">0</span>s
-        </div>
+      <div
+      class="countdown-timer mt-3 text-center"
+      data-target="Mar 10, 2025 00:00:00"
+    >
+      <h6>Time Left:</h6>
+      <div class="timer">
+        <span class="days">0</span>d
+        <span class="hours">0</span>h
+        <span class="minutes">0</span>m
+        <span class="seconds">0</span>s
       </div>
+    </div>
     </div>
   </div>
 </div>
@@ -546,7 +775,7 @@
 </svg>
     <div class="card-body">
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p>Date: </p>
+      <p>Date: Oct 25 , 2025 00:00:00 </p>
       <!-- Organizer Details -->
       <div class="mb-3">
         <h6>Organizer Details:</h6>
@@ -555,10 +784,40 @@
         <p>Email: organizer@gmail.com</p>
       </div>
 
-      <!-- RSVP Button -->
-      <div class="mb-3">
-        <button type="button" class="btn btn-primary btn-sm">RSVP</button>
+      <!-- RSVP Button in your event card -->
+<button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#rsvpModal">
+  RSVP
+</button>
+
+<!-- RSVP Modal -->
+<div class="modal fade" id="rsvpModal" tabindex="-1" aria-labelledby="rsvpModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+         <h5 class="modal-title" id="rsvpModalLabel">RSVP Registration</h5>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+      <div class="modal-body">
+         <form id="rsvpForm">
+            <div class="mb-3">
+               <label for="userName" class="form-label">Name</label>
+               <input type="text" class="form-control" id="userName" required>
+            </div>
+            <div class="mb-3">
+               <label for="userEmail" class="form-label">Email</label>
+               <input type="email" class="form-control" id="userEmail" required>
+            </div>
+            <div class="mb-3">
+               <label for="userMessage" class="form-label">Message</label>
+               <textarea class="form-control" id="userMessage" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit RSVP</button>
+         </form>
+      </div>
+    </div>
+  </div>
+</div>
+
 
       <!-- Social Sharing Options -->
       <div class="mb-3">
@@ -575,15 +834,18 @@
       </div>
 
       <!-- Countdown Timer -->
-      <div id="countdown-timer" class="mt-3 text-center">
-        <h6>Time Left:</h6>
-        <div id="timer">
-          <span id="days">0</span>d 
-          <span id="hours">0</span>h 
-          <span id="minutes">0</span>m 
-          <span id="seconds">0</span>s
-        </div>
+      <div
+      class="countdown-timer mt-3 text-center"
+      data-target=" Oct 25 , 2025 00:00:00"
+    >
+      <h6>Time Left:</h6>
+      <div class="timer">
+        <span class="days">0</span>d
+        <span class="hours">0</span>h
+        <span class="minutes">0</span>m
+        <span class="seconds">0</span>s
       </div>
+    </div>
     </div>
   </div>
 </div>
@@ -617,7 +879,8 @@
 
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="./events.js"></script>
+<script src="../EventEase/js/events.js"></script>
+
 </body>
 </html>
 

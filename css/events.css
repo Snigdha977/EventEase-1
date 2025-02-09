@@ -106,3 +106,9 @@ footer {
     width: 100%;
     object-fit: cover; /* 'cover' fills the container; use 'contain' if you want letterboxing */
   }
+
+  footer.footer {
+    border: 2px solid #212529; /* Adjust thickness and color as desired */
+  }
+  
+

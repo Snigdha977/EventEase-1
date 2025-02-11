@@ -19,7 +19,7 @@ A simple and efficient event management platform built with HTML, CSS, JavaScrip
 
 
 #📂 Project Structure 
-```
+
 EventEase/
 │── assets/          # Images, icons, and other static assets
 │── css/             # Stylesheets

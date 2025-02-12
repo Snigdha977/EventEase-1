@@ -19,7 +19,7 @@ A simple and efficient event management platform built with HTML, CSS, JavaScrip
 
 
 #📂 Project Structure 
-```
+
 EventEase/
 │── assets/          # Images, icons, and other static assets
 │── css/             # Stylesheets
@@ -79,5 +79,5 @@ For queries and collaborations, feel free to reach out
 
 
  🚀 Follow Me :
-Github : https://github.com/Karan-purkait
-Linked in : https://www.linkedin.com/in/karan-purkait/
+Github :  https://github.com/Karan-purkait
+Linked in :  https://www.linkedin.com/in/karan-purkait/

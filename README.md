@@ -1,5 +1,5 @@
 
-# 📌 EventEase - Event Management Website
+# 📌 EventEase - Event Management Website  
 A simple and efficient event management platform built with HTML, CSS, JavaScript, and Bootstrap.  
 
 

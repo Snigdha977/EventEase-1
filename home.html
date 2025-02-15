@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventEase - Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body { 
+            font-family: 'Copperplate', 'Papyrus', fantasy; 
+            background-color: #36648B;  /* Darker shade for more excitement */
+        }
+        .hero-section {
+            position: relative;
+            background: url('https://images.squarespace-cdn.com/content/v1/642f1321bdeffe45dedee38d/1734617223447-0LG0DFA9NWB4O3ZYT8I5/winery-event-planner-in-michigan.jpeg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero-text {
+            position: absolute;
+            color: white;
+            font-style: italic;
+            font-size: 2rem;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+        .image-grid img { 
+            width: 100%; 
+            height: 150px; 
+            object-fit: cover; 
+            border-radius: 8px; 
+        }
+        .cta-section { text-align: center; padding: 30px; }
+        .cta-text {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: darkblue;
+        }
+        .btn-signin {
+            background-color: #0bb97f; /* Exciting color for Sign In button */
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">EventEase</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="About.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events.html">Event Page</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <h1 class="hero-text">"One stop platform for event planning and management"</h1>
+    </section>
+
+    <!-- Image Grid -->
+    <section class="container text-center mt-4">
+        <h2>Explore Exciting Events</h2>
+        <div class="image-grid">
+            <img src="https://everwall.com/wp-content/uploads/2013/02/10TechniquesforEventManagerstohavebetterevents-00.svg">
+            <img src="https://bookmyinfo.com/wp-content/uploads/2024/10/Best-Event-Management-Companies-In-Gurgaon.jpg">
+            <img src="https://www.eventbookings.com/wp-content/uploads/2018/03/event-ideas-for-party-eventbookings.jpg">
+            <img src="https://lavidstal.com/wp-content/uploads/2022/11/7914bf34e0734e64bb64c42f9d02c451_259223443_2134258346725647_5446099556808654531_n.jpg">
+            <img src="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/dQ_vA5GB9BlW5wAhROp3ePLisvSfPAUkMa4bCcXERhI=">
+            <img src="https://eventacademy.com/wp-content/uploads/2020/04/wedding-300x289.jpg">
+            <img src="https://partyslate.imgix.net/companies-cover-image/10521/image-0570673c-c0df-4cfc-8123-eb0493183478.jpg?ixlib=js-2.3.2&auto=compress%2Cformat&bg=ffffff&fit=crop&h=400&w=400">
+            <img src="https://mspmag.com/downloads/39171/download/lanterns-at-party.jpg?cb=43809a5981159e39617fcedd93c393f5">
+            <img src="https://i.pinimg.com/550x/ab/af/bd/abafbd2d8c1ddbb9f2132434f836fd50.jpg">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSedV3-EqftHfM73HREElz0Mwr5QnuPHeBJ8Wmgw2YgJYy85dcBP36iySmnqD3Ig4VH5OA&usqp=CAU">
+            <img src="https://business.gwu.edu/sites/g/files/zaxdzs5326/files/image/IITS_LP_event-management-certifiate.png">
+            <img src="https://cdn0.weddingwire.in/vendor/4942/3_2/640/jpg/file-1676439499715_15_424942-167643950274626.jpeg">
+        </div>
+    </section>
+
+    <!-- Tagline -->
+    <section class="cta-section">
+        <h3 class="cta-text">"Your all worries of event planning end by visiting EventEase."</h3>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <p class="cta-text">Get Started</p>
+        <p class="cta-text">Join Us</p>
+        <a href="loginpage.html" class="btn btn-signin">Sign In</a>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

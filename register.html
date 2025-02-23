@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Registration</title>
+  <link rel="stylesheet" href="../EventEase/css/register.css">
+</head>
+<body>
+  <div class="registration-container">
+    <h2>Create Account</h2>
+    <form id="registrationForm" novalidate>
+      <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" name="fullName" placeholder="Your full name" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter password" required minlength="6" />
+      </div>
+      <div class="form-group">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Re-enter password" required minlength="6" />
+      </div>
+      <div class="form-group terms">
+        <input type="checkbox" id="terms" name="terms" required />
+        <label for="terms" style="margin: 0;">I agree to the Terms &amp; Conditions</label>
+      </div>
+      <button type="submit" class="submit-btn">Register</button>
+      <div id="formMessage" class="message"></div>
+    </form>
+  </div>
+  <script src="../EventEase/js/register.js"></script>
+
+ 
+</body>
+</html>

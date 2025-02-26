@@ -32,14 +32,17 @@
         .img4 { bottom: 0; right: 0; background-image: url('https://startupmiles.com/wp-content/uploads/2021/10/Contact-Us-StartupMiles.jpg'); }
 
         .contact-container {
-            background: white;
-            padding: 30px; /* Reduced padding for a smaller size */
-            border-radius: 10px;
-            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+            background: rgba(255, 255, 255, 0.95); /* More visible */
+            padding: 30px; /* Increased padding */
+            border-radius: 15px; /* Softer edges */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+            width: 420px; /* Slightly larger width */
             text-align: center;
-            width: 400px; /* Reduced width */
+            z-index: 2; /* Ensure it's above background images */
             position: relative;
-            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         .contact-container h2 {
@@ -53,8 +56,6 @@
             border: 1px solid #ccc;
             border-radius: 5px;
             display: block;
-            margin-left: auto;
-            margin-right: auto;
         }
 
         .contact-container button {
@@ -69,7 +70,7 @@
         }
 
         .contact-container button:hover {
-            background: #dee2e6;
+            background: #0056b3;
         }
 
         .icons {
